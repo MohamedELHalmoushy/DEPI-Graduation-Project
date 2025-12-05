@@ -1,1 +1,63 @@
+# 🌍 Land Classification – DEPI Graduation Project
+
+## 📌 Overview
+This repository contains my **DEPI Graduation Project**, which focuses on **Land Classification using Remote Sensing data**.  
+The project covers the full pipeline from data loading and preprocessing to Exploratory Data Analysis (EDA), model development, evaluation, and documentation.
+
+It demonstrates the use of **NDVI, RGB, and RGB+NIR composite imagery** for building land-classification models and comparing their performance across different preprocessing and feature-extraction workflows.
+
+---
+
+## 🚀 Project Objectives
+- Load and preprocess remote-sensing datasets  
+- Perform detailed **Exploratory Data Analysis (EDA)**  
+- Build multiple classification models:
+  - NDVI-based classification
+  - RGB classification
+  - RGB + NIR classification
+- Evaluate and compare models
+- Document system design using UML (Activity, State, Sequence, Use-Case diagrams)
+- Present the work in a structured and professional graduation report
+
+---
+
+## 📂 Repository Structure
+DEPI-Graduation-Project/
+│
+├── Loading_Data&EDA_Final.ipynb
+├── NDVI_model.ipynb
+├── RGB_model.ipynb
+├── RGB_NIR.ipynb
+├── scraper.ipynb
+│
+├── Activity Diagram.pdf
+├── Sequence Diagram.pdf
+├── State Diagram.pdf
+├── Use case diagram.pdf
+│
+├── Documentation_DEPI_PROJECT_Mohamed_Ayman_LAND_CLASSIFCATION_1.pdf
+├── Land Classification.pptx
+│
+├── LICENSE
+└── README.md
+---
+
+## 🧪 Technologies & Tools
+
+| Category | Tools |
+|----------|-------|
+| Languages | Python |
+| Libraries | NumPy, Pandas, Matplotlib, Rasterio, scikit-learn |
+| Visualization | Matplotlib, Seaborn |
+| Remote Sensing Metrics | NDVI, RGB Composite, NIR |
+| Documentation | UML Diagrams, PDF Report, PowerPoint |
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/MohamedELHalmoushy/DEPI-Graduation-Project.git
+cd DEPI-Graduation-Project
 
