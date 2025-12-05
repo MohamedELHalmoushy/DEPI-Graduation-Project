@@ -40,7 +40,6 @@ DEPI-Graduation-Project/
 │
 ├── LICENSE
 └── README.md
----
 
 ## 🧪 Technologies & Tools
 
@@ -61,3 +60,47 @@ DEPI-Graduation-Project/
 git clone https://github.com/MohamedELHalmoushy/DEPI-Graduation-Project.git
 cd DEPI-Graduation-Project
 
+  install_dependencies:
+    description: "Install required Python libraries"
+    commands:
+      - "pip install numpy pandas matplotlib scikit-learn rasterio"
+
+usage:
+  preprocessing_and_eda:
+    description: "Run preprocessing and exploratory data analysis"
+    open_notebook: "Loading_Data&EDA_Final.ipynb"
+
+  train_models:
+    description: "Choose and run any model notebook"
+    notebooks:
+      - name: "NDVI_model.ipynb"
+        description: "NDVI-based classifier"
+      - name: "RGB_model.ipynb"
+        description: "RGB-based classifier"
+      - name: "RGB_NIR.ipynb"
+        description: "RGB + NIR classifier"
+
+    each_notebook_includes:
+      - "Data loading"
+      - "Feature extraction"
+      - "Model training"
+      - "Evaluation metrics"
+      - "Visualizations"
+
+documentation:
+  included_files:
+    - "Full Project Report (PDF)"
+    - "Activity Diagram (PDF)"
+    - "Sequence Diagram (PDF)"
+    - "State Diagram (PDF)"
+    - "Use Case Diagram (PDF)"
+    - "Final Presentation (PPTX)"
+
+author:
+  name: "Mohamed Ayman"
+  role: "DEPI Student — Land Classification Project"
+  github: "https://github.com/MohamedELHalmoushy"
+
+license:
+  type: "MIT License"
+  description: "This project is licensed under the MIT License."
