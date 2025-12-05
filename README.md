@@ -97,11 +97,16 @@ Included in this repository:
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
-**Mohamed Ayman**  
-DEPI Student — Land Classification Project  
-GitHub: [https://github.com/MohamedELHalmoushy](https://github.com/MohamedELHalmoushy)
+- **Mohamed Ayman** — DEPI Student, Land Classification Project  
+  GitHub: [https://github.com/MohamedELHalmoushy](https://github.com/MohamedELHalmoushy)
+
+- **Mohamed Mourad** — DEPI Student, Land Classification Project  
+
+- **Mahmoud Mohamed** — DEPI Student, Land Classification Project  
+
+- **Youssef Adawy** — DEPI Student, Land Classification Project  
 
 ---
 
