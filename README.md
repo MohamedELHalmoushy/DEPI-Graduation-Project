@@ -60,63 +60,51 @@ DEPI-Graduation-Project/
 git clone https://github.com/MohamedELHalmoushy/DEPI-Graduation-Project.git
 cd DEPI-Graduation-Project
 ```
+## 📊 How to Use
 
-  install_dependencies:
-    description: "Install required Python libraries"
-    commands:
-      - "pip install numpy pandas matplotlib scikit-learn rasterio"
-📊 How to Use
-▶️ Run Preprocessing & EDA
+### ▶️ Run Preprocessing & EDA
+Open the notebook:
 
-Open:
 
-Loading_Data&EDA_Final.ipynb
-
-▶️ Train Models
-
+### ▶️ Train Models
 Choose one of the following notebooks:
 
-Notebook	Description
-NDVI_model.ipynb	NDVI-based classifier
-RGB_model.ipynb	RGB-based classifier
-RGB_NIR.ipynb	RGB + NIR classifier
+| Notebook           | Description             |
+|-------------------|------------------------|
+| `NDVI_model.ipynb`  | NDVI-based classifier   |
+| `RGB_model.ipynb`   | RGB-based classifier    |
+| `RGB_NIR.ipynb`     | RGB + NIR classifier    |
 
-Each notebook contains:
+Each notebook contains:  
+- Data loading  
+- Feature extraction  
+- Model training  
+- Evaluation metrics  
+- Visualizations  
 
-Data loading
+---
 
-Feature extraction
+## 📄 Documentation
 
-Model training
+Included in this repository:  
+- **Full Project Report (PDF)**  
+- **UML Diagrams:**  
+  - Activity Diagram  
+  - Sequence Diagram  
+  - State Diagram  
+  - Use Case Diagram  
+- **Final Presentation (PPTX)**  
 
-Evaluation metrics
+---
 
-Visualizations
+## 👤 Author
 
-📄 Documentation
+**Mohamed Ayman**  
+DEPI Student — Land Classification Project  
+GitHub: [https://github.com/MohamedELHalmoushy](https://github.com/MohamedELHalmoushy)
 
-Included in this repository:
+---
 
-Full Project Report (PDF)
+## 📝 License
 
-UML Diagrams
-
-Activity Diagram
-
-Sequence Diagram
-
-State Diagram
-
-Use Case Diagram
-
-Final Presentation (PPTX)
-
-👤 Author
-
-Mohamed Ayman
-DEPI Student — Land Classification Project
-GitHub: https://github.com/MohamedELHalmoushy
-
-📝 License
-
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
