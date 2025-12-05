@@ -65,43 +65,58 @@ cd DEPI-Graduation-Project
     description: "Install required Python libraries"
     commands:
       - "pip install numpy pandas matplotlib scikit-learn rasterio"
+📊 How to Use
+▶️ Run Preprocessing & EDA
 
-usage:
-  preprocessing_and_eda:
-    description: "Run preprocessing and exploratory data analysis"
-    open_notebook: "Loading_Data&EDA_Final.ipynb"
+Open:
 
-  train_models:
-    description: "Choose and run any model notebook"
-    notebooks:
-      - name: "NDVI_model.ipynb"
-        description: "NDVI-based classifier"
-      - name: "RGB_model.ipynb"
-        description: "RGB-based classifier"
-      - name: "RGB_NIR.ipynb"
-        description: "RGB + NIR classifier"
+Loading_Data&EDA_Final.ipynb
 
-    each_notebook_includes:
-      - "Data loading"
-      - "Feature extraction"
-      - "Model training"
-      - "Evaluation metrics"
-      - "Visualizations"
+▶️ Train Models
 
-documentation:
-  included_files:
-    - "Full Project Report (PDF)"
-    - "Activity Diagram (PDF)"
-    - "Sequence Diagram (PDF)"
-    - "State Diagram (PDF)"
-    - "Use Case Diagram (PDF)"
-    - "Final Presentation (PPTX)"
+Choose one of the following notebooks:
 
-author:
-  name: "Mohamed Ayman"
-  role: "DEPI Student — Land Classification Project"
-  github: "https://github.com/MohamedELHalmoushy"
+Notebook	Description
+NDVI_model.ipynb	NDVI-based classifier
+RGB_model.ipynb	RGB-based classifier
+RGB_NIR.ipynb	RGB + NIR classifier
 
-license:
-  type: "MIT License"
-  description: "This project is licensed under the MIT License."
+Each notebook contains:
+
+Data loading
+
+Feature extraction
+
+Model training
+
+Evaluation metrics
+
+Visualizations
+
+📄 Documentation
+
+Included in this repository:
+
+Full Project Report (PDF)
+
+UML Diagrams
+
+Activity Diagram
+
+Sequence Diagram
+
+State Diagram
+
+Use Case Diagram
+
+Final Presentation (PPTX)
+
+👤 Author
+
+Mohamed Ayman
+DEPI Student — Land Classification Project
+GitHub: https://github.com/MohamedELHalmoushy
+
+📝 License
+
+This project is licensed under the MIT License.
