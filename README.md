@@ -59,6 +59,7 @@ DEPI-Graduation-Project/
 ```bash
 git clone https://github.com/MohamedELHalmoushy/DEPI-Graduation-Project.git
 cd DEPI-Graduation-Project
+```
 
   install_dependencies:
     description: "Install required Python libraries"
